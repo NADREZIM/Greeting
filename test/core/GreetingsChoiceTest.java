@@ -16,7 +16,7 @@ public class GreetingsChoiceTest {
         String result = new GreetingsChoice().choice(Locale.getDefault(), LocalTime.now(), "cp1251");
         Assert.assertNotNull("Error: result is null in choiceTest0() ",result);
     }
-    
+
 
     @Test
     public void choiceTest1() {
